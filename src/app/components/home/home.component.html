@@ -1,0 +1,327 @@
+<!-- Banner Image div-->
+<div class="main-div">
+  <div class="banner-div container-fluid"
+    style="background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/afc06103-4d6a-4236-b496-34b671a7e9ba/383fc36a-aa04-4dfd-95a0-a4b71bc21eed/IN-en-20221003-popsignuptwoweeks-perspective_alpha_website_large.jpg');">
+    <div class="row p-4">
+      <div class="col-md-4">
+        <img width="160" src="https://i.ibb.co/r5krrdz/logo.png" class="img-fluid ms-4" alt="Netflix_logo">
+      </div>
+      <div class="col-md-8 text-end">
+        <button type="button" class="btn dropdown-toggle lang me-5" data-bs-toggle="dropdown" aria-expanded="false">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe2"
+            viewBox="0 0 16 16">
+            <path
+              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
+          </svg>
+          English
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">English</a></li>
+          <li><a class="dropdown-item" href="#">हिन्दी</a></li>
+        </ul>
+
+        <button (click)="navigateToLogin()" class="btn login">Sign In</button>
+      </div>
+    </div>
+
+    <div class="banner-text mt-5">
+      <div class="text-div">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1 class="title line-height">Unlimited movies, TV</h1>
+            <h1 class="title line-height">shows and more.</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="line-height">Watch anywhere. Cancel anytime.</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="email-text line-height">Ready to watch? Enter your email to create or restart your membership.
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="row email-input gx-0">
+        <div class="col-md-7">
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <button class="btn started">Get Started <i class="fa-solid fa-angle-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- horizontal bar-->
+  <div class="horizontal-line"></div>
+
+  <!-- enjoy on tv div-->
+  <div class="enjoy-on-tv container-fluid p-5">
+    <div class="row p-5">
+      <div class="col-md-6 p-5">
+        <p class="pt-5" style="color: white; font-size: 3rem; font-weight: 700;">Enjoy on your TV.</p>
+        <p style="color: white; font-size: 1.8rem;">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+          players and more.</p>
+      </div>
+      <div class="col-md-6">
+        <img class="img-fluid" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png">
+      </div>
+    </div>
+  </div>
+
+  <!-- horizontal bar-->
+  <div class="horizontal-line"></div>
+
+  <!-- download your shows div -->
+  <div class="enjoy-on-tv container-fluid p-5">
+    <div class="row p-5">
+      <div class="col-md-6">
+        <img class="img-fluid"
+          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg">
+      </div>
+      <div class="col-md-6 p-5">
+        <p class="pt-5" style="color: white; font-size: 3rem; font-weight: 700;">Download your shows to watch offline.
+        </p>
+        <p style="color: white; font-size: 1.8rem;">Save your favourites easily and always have something to watch.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="horizontal-line"></div>
+
+  <!-- watch everywhere div-->
+  <div class="enjoy-on-tv container-fluid p-5">
+    <div class="row p-5">
+      <div class="col-md-6 p-5">
+        <p class="pt-5" style="color: white; font-size: 3rem; font-weight: 700;">Watch everywhere.</p>
+        <p style="color: white; font-size: 1.8rem;">Stream unlimited movies and TV shows on your phone, tablet, laptop,
+          and TV.</p>
+      </div>
+      <div class="col-md-6">
+        <img class="img-fluid"
+          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png">
+      </div>
+    </div>
+  </div>
+
+  <!-- create profiles for children div-->
+
+  <div class="horizontal-line"></div>
+
+  <div class="enjoy-on-tv container-fluid p-5">
+    <div class="row p-5">
+      <div class="col-md-6">
+        <img class="img-fluid"
+          src="https://occ-0-6546-3647.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABYjXrxZKtrzxQRVQNn2aIByoomnlbXmJ-uBy7du8a5Si3xqIsgerTlwJZG1vMpqer2kvcILy0UJQnjfRUQ5cEr7gQlYqXfxUg7bz.png?r=420">
+      </div>
+      <div class="col-md-6 p-5">
+        <p class="pt-5" style="color: white; font-size: 3rem; font-weight: 700;">Create profiles for children.</p>
+        <p style="color: white; font-size: 1.8rem;">Send children on adventures with their favourite characters in a
+          space made just for them—free with your membership.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ DIV-->
+  <div class="horizontal-line"></div>
+
+  <div class="faq-div container-fluid p-5">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p>Frequently Asked Questions</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 ml-style mt-4">
+        <div class="accordion accordion-flush" id="accordionFlushExample" style="width: 75%;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                What is Netflix?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, ratione, illo
+                eveniet vero doloremque pariatur suscipit delectus quam eligendi, nihil iure perspiciatis quasi
+                distinctio corporis fugiat praesentium. Ut, sunt placeat.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                How much does Netflix cost?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, ratione, illo
+                eveniet vero doloremque pariatur suscipit delectus quam eligendi, nihil iure perspiciatis quasi
+                distinctio corporis fugiat praesentium. Ut, sunt placeat.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Where can I watch?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, ratione, illo
+                eveniet vero doloremque pariatur suscipit delectus quam eligendi, nihil iure perspiciatis quasi
+                distinctio corporis fugiat praesentium. Ut, sunt placeat.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                How do I cancel?
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, ratione, illo
+                eveniet vero doloremque pariatur suscipit delectus quam eligendi, nihil iure perspiciatis quasi
+                distinctio corporis fugiat praesentium. Ut, sunt placeat.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+              <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
+                Where can I watch on Netflix?
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, ratione, illo
+                eveniet vero doloremque pariatur suscipit delectus quam eligendi, nihil iure perspiciatis quasi
+                distinctio corporis fugiat praesentium. Ut, sunt placeat.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingSix">
+              <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseThree">
+                Is Netflix good for kids?
+              </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, ratione, illo
+                eveniet vero doloremque pariatur suscipit delectus quam eligendi, nihil iure perspiciatis quasi
+                distinctio corporis fugiat praesentium. Ut, sunt placeat.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md-12 text-center">
+        <p class="ps-5" style="font-size: 1.3rem; font-weight: 400;">Ready to watch? Enter your email to create or
+          restart your membership.</p>
+      </div>
+    </div>
+
+    <div class="row email-input1 gx-0">
+      <div class="col-md-7">
+        <div class="form-floating">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <button class="btn started">Get Started <i class="fa-solid fa-angle-right"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact div-->
+  <div class="horizontal-line"></div>
+
+  <div class="contact-us container-fluid p-5">
+    <div class="row ps-2">
+      <div class="col-md-12 ps-5 pt-5 pe-5">
+        <span class="ms-5">Questions? Call 000-800-040-1843</span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 p-5">
+        <ul class="ps-5">
+          <li><a>FAQ</a></li>
+          <li><a>Investor Relations</a></li>
+          <li><a>Privacy</a></li>
+          <li><a>Speed Test</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 p-5">
+        <ul class="ps-5">
+          <li><a>Help Centre</a></li>
+          <li><a>Jobs</a></li>
+          <li><a>Cookie Preferences</a></li>
+          <li><a>Legal Notices</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 p-5">
+        <ul class="ps-5">
+          <li><a>Account</a></li>
+          <li><a>Ways to Watch</a></li>
+          <li><a>Corporate Information</a></li>
+          <li><a>Only on Netflix</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3 p-5">
+        <ul class="ps-5">
+          <li><a>Media Centre</a></li>
+          <li><a>Terms of Use</a></li>
+          <li><a>Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row ps-2">
+      <div class="col-md-12 ps-5 pt-3 pe-5">
+        <button type="button" class="btn dropdown-toggle lang ms-5" data-bs-toggle="dropdown" aria-expanded="false">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe2"
+            viewBox="0 0 16 16">
+            <path
+              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
+          </svg>
+          English
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">English</a></li>
+          <li><a class="dropdown-item" href="#">हिन्दी</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row ps-2">
+      <div class="col-md-12 ps-5 pt-4">
+        <span class="ms-5">Netflix India</span>
+      </div>
+
+    </div>
+
+  </div>
+
+
+</div>

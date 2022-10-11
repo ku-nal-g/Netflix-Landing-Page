@@ -1,0 +1,59 @@
+.banner-div {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 120vh;
+  background: rgba(0, 0, 0, .4);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .8) 0, transparent 40%, transparent 75%, rgba(0, 0, 0, .8));
+}
+.card{
+  background-color: rgba(0,0,0,.75);
+  border-radius: 0px !important;
+}
+p{
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+input[type="password"]{
+  background-color: rgb(51, 51, 51);
+  border: none;
+  outline: line;
+}
+label.pd-label{
+  color: #ddd;
+}
+button.btn-block{
+  border: none;
+  outline: none;
+  background-color: rgb(229, 9, 20);
+  color: white;
+  font-weight: 600;
+}
+button.btn-block:hover{
+  border: none;
+  outline: none;
+  background-color: rgb(229, 9, 20);
+  color: white;
+  font-weight: 600;
+}
+a.help{
+  text-decoration: none;
+  cursor: pointer;
+  color: #ddd;
+}
+a.help:hover{
+  text-decoration: underline;
+  color: #ddd;
+}
+span{
+  color: rgb(115, 115, 115);
+  a{
+    color: #ddd;
+    cursor: pointer;
+  }
+  a:hover{
+    color: #ddd;
+  }
+}
